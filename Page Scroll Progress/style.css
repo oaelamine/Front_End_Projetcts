@@ -1,0 +1,17 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+}
+.scroller {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    background-color: #0075FF;
+    z-index: 999999;
+}
